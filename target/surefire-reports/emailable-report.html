@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">10</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">156,212</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.SauceLabsMainWebsiteTest</td><td><a href="#m0">VerifingSauceTitleTest</a></td><td rowspan="1">1627627509528</td><td rowspan="1">9</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.SauceLabsMainWebsiteTest</td><td><a href="#m1">navigateToReadMorePageTest</a></td><td rowspan="1">1627627522059</td><td rowspan="1">11963</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">testcases.HomepageTest</td><td><a href="#m2">checkingOutTest</a></td><td rowspan="4">1627627415764</td><td rowspan="4">5955</td></tr><tr class="passedeven"><td><a href="#m3">checkingOutTest</a></td></tr><tr class="passedeven"><td><a href="#m4">checkingOutTest</a></td></tr><tr class="passedeven"><td><a href="#m5">checkingOutTest</a></td></tr><tr class="passedeven"><td><a href="#m6">logoutTest</a></td><td rowspan="1">1627627452249</td><td rowspan="1">4268</td></tr><tr class="passedeven"><td><a href="#m7">navigateToMainWebsiteTest</a></td><td rowspan="1">1627627459867</td><td rowspan="1">22926</td></tr><tr class="passedeven"><td><a href="#m8">validatingHomepageTitleTest</a></td><td rowspan="1">1627627489751</td><td rowspan="1">31</td></tr><tr class="passedodd"><td rowspan="2">testcases.LoginTest</td><td><a href="#m9">logintoWebsiteTest</a></td><td rowspan="1">1627627492681</td><td rowspan="1">3307</td></tr><tr class="passedodd"><td><a href="#m10">verifyingLoginTitleTest</a></td><td rowspan="1">1627627499235</td><td rowspan="1">12</td></tr><tr class="passedeven"><td rowspan="1">testcases.SauceLabsMainWebsiteTest</td><td><a href="#m11">navigateToPricingTest</a></td><td rowspan="1">1627627552161</td><td rowspan="1">6917</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">testcases.SauceLabsMainWebsiteTest#VerifingSauceTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Title did not match expected [Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Lab] but found [Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs]
+	at testcases.SauceLabsMainWebsiteTest.VerifingSauceTitleTest(SauceLabsMainWebsiteTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.SauceLabsMainWebsiteTest#navigateToReadMorePageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping this testcase intentionally
+	at testcases.SauceLabsMainWebsiteTest.navigateToReadMorePageTest(SauceLabsMainWebsiteTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.HomepageTest#checkingOutTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>John</td><td>Doe</td><td>200123.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.HomepageTest#checkingOutTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Layla </td><td>Manju</td><td>100213.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.HomepageTest#checkingOutTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Jane</td><td>Doe</td><td>200124.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.HomepageTest#checkingOutTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Romeo</td><td>Juliet</td><td>100567.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.HomepageTest#logoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.HomepageTest#navigateToMainWebsiteTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.HomepageTest#validatingHomepageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.LoginTest#logintoWebsiteTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.LoginTest#verifyingLoginTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testcases.SauceLabsMainWebsiteTest#navigateToPricingTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
