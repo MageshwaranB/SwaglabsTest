@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -23,7 +23,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 	public static Properties prop;
 	public static WebDriver driver;
-	public static Logger logger;
+	//public static Logger logger;
 	public static String browser;
 	public TestBase() {
 		prop=new Properties();
@@ -39,7 +39,7 @@ public class TestBase {
 		}
 	}
 	public void initialization() {
-		logger=Logger.getLogger(TestBase.class);
+		//logger=Logger.getLogger(TestBase.class);
 		 browser=prop.getProperty("browser");
 		if (browser.equals("chrome"))
 		{
@@ -55,7 +55,7 @@ public class TestBase {
 //		eListener=new WebListener();
 //		eventDriver.register(eListener);
 //		driver=eventDriver;
-		logger.info(browser + " is started successully");
+		//logger.info(browser + " is started successully");
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -65,7 +65,7 @@ public class TestBase {
 		
 	}
 	public void tearDown() {
-		logger.info(browser+" is closed successfully");
+		//logger.info(browser+" is closed successfully");
 		driver.close();
 	}
 }
